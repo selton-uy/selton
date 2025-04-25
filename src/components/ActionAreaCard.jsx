@@ -21,7 +21,7 @@ export default function ActionAreaCard() {
       <CardActionArea>
         <CardMedia
           component="img"
-          image="../assets/selton.jpg"
+          image="src/assets/selton.jpg"
           alt="Fotinha do Selton"
           sx={{  }}
         />

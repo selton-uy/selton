@@ -25,14 +25,14 @@ function App() {
         <ActionAreaCard />
         <div className="flex flex-col justify-center items-center ">
           <div className="flex flex-row w-[300px] h-[300px] flex-wrap">
-            <Img src="./assets/html.png" alt="HTML" />
-            <Img src="./assets/css.png" alt="CSS" />
-            <Img src="./assets/js.png" alt="JAVASCRIPT" />
-            <Img src="./assets/react.png" alt="REACT" />
-            <Img src="./assets/node.png" alt="NODE" />
-            <Img src="./assets/python.png" alt="PYTHON" />
+            <Img src="src/assets/html.png" alt="HTML" />
+            <Img src="src/assets/css.png" alt="CSS" />
+            <Img src="src/assets/js.png" alt="JAVASCRIPT" />
+            <Img src="src/assets/react.png" alt="REACT" />
+            <Img src="src/assets/node.png" alt="NODE" />
+            <Img src="src/assets/python.png" alt="PYTHON" />
           </div>
-          <a href="./assets/seltonbatistacv.pdf" download>
+          <a href="src/assets/seltonbatistacv.pdf" download>
             <Button>Baixar CV</Button>
           </a>
         </div>
