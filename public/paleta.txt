@@ -1,0 +1,7 @@
+#000000
+#222222
+#1DCD9F
+#169976
+#f2f2f2
+https://mui.com/material-ui/getting-started/
+https://colorhunt.co/palette/0000002222221dcd9f169976
