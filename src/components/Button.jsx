@@ -6,7 +6,7 @@ export default function DisableElevation({ children }) {
     <Button
       variant="outlined"
       disableElevation
-      sx={{"&:hover": { backgroundColor: "#169976", color:"#FFF", borderColor: "transparent" }, padding:5 , paddingY: 2, borderRadius:5, fontFamily: "Fira Code", fontSize: "1.25em", fontWeight:"bold"}}
+      sx={{"&:hover": { backgroundColor: "#1DCD9F", color:"#FFF", borderColor: "transparent" }, padding:5 , paddingY: 2, borderRadius:5, fontFamily: "Fira Code", fontSize: "1.25em", fontWeight:"bold"}}
       color="success"
     >
       {children}

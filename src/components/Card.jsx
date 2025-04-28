@@ -13,7 +13,7 @@ const Card = () => {
         <GitBranch />
         GitHub
       </Link>
-      <Link href={"mailto:selton,uy@gmail.com"}>
+      <Link href={"mailto:selton.uy@gmail.com"}>
         <Mail />
         E-mail
       </Link>
