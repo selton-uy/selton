@@ -3,7 +3,7 @@ import Link from "./Link";
 
 const Card = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-transparent rounded-lg p-5 min-w-[500px] text-center shadow-xl shadow-[#1DCD9F]">
+    <div className="flex flex-col justify-center items-center bg-transparent rounded-lg p-5 min-w-[500px] text-center border-2 border-[#1DCD9F] shadow-lg">
       <h2>Contact me :3</h2>
       <Link href={"https://www.linkedin.com/in/selton-uy"}>
         <Linkedin />

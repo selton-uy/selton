@@ -5,6 +5,12 @@ import Button from "./components/Button";
 import Subtitles from "./components/Subtitle";
 import Title from "./components/Title";
 import "./index.css";
+import html from "./assets/html.png";
+import css from "./assets/css.png";
+import js from "./assets/js.png";
+import react from "./assets/react.png";
+import node from "./assets/node.png";
+import python from "./assets/python.png"; 
 
 function App() {
   return (
@@ -25,14 +31,14 @@ function App() {
         <ActionAreaCard />
         <div className="flex flex-col justify-center items-center ">
           <div className="flex flex-row w-[300px] h-[300px] flex-wrap">
-            <Img src="src/assets/html.png" alt="HTML" />
-            <Img src="src/assets/css.png" alt="CSS" />
-            <Img src="src/assets/js.png" alt="JAVASCRIPT" />
-            <Img src="src/assets/react.png" alt="REACT" />
-            <Img src="src/assets/node.png" alt="NODE" />
-            <Img src="src/assets/python.png" alt="PYTHON" />
+            <Img src={html} alt="HTML" />
+            <Img src={css} alt="CSS" />
+            <Img src={js} alt="JAVASCRIPT" />
+            <Img src={react} alt="REACT" />
+            <Img src={node} alt="NODE" />
+            <Img src={python} alt="PYTHON" />
           </div>
-          <a href="src/assets/seltonbatistacv.pdf" download>
+          <a href="/public/seltonbatistacv.pdf" download>
             <Button>Baixar CV</Button>
           </a>
         </div>
