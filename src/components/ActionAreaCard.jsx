@@ -4,6 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
+import selton from "../assets/selton.jpg";
 
 export default function ActionAreaCard() {
   return (
@@ -22,7 +23,7 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           image="src/assets/selton.jpg"
-          alt="Fotinha do Selton"
+          alt={selton}
           sx={{  }}
         />
         <CardContent>
@@ -34,7 +35,7 @@ export default function ActionAreaCard() {
           >
             Selton Batista
           </Typography>
-          <Typography variant="body2" sx={{ color: "#F2F2F2", fontSize: 18 }}>
+          <Typography variant="body2" sx={{ color: "#F2F2F2", fontSize: 18 ,}}>
             Olá, meu nome é Selton Batista, sou um desenvolvedor de software
             júnior com experiência em React e Node.js. Estou sempre buscando
             aprender e crescer na área de tecnologia.

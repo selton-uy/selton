@@ -11,6 +11,7 @@ import js from "./assets/js.png";
 import react from "./assets/react.png";
 import node from "./assets/node.png";
 import python from "./assets/python.png"; 
+import AccordionProjects from "./components/AccordionProjects";
 
 function App() {
   return (
@@ -38,17 +39,18 @@ function App() {
             <Img src={node} alt="NODE" />
             <Img src={python} alt="PYTHON" />
           </div>
-          <a href="/public/seltonbatistacv.pdf" download>
+          <a href="/public/seltonbatistacv.pdf" download target="_blank" rel="noreferrer noopener">
             <Button>Baixar CV</Button>
           </a>
         </div>
       </section>
 
-      <section>
-        <div className="text-[3em] flex flex-row justify-center items-center h-screen gap-10">
-          <Card />
-        </div>
+      <section className="w-full h-screen flex flex-col justify-center items-center">
+        <AccordionProjects projectName="Nasa API" Description="NONE" Img="/public/vite.svg"/>
       </section>
+      {/*<div className="text-[3em] flex flex-row justify-center items-center h-screen gap-10">
+          <Card />
+        </div>*/}
     </div>
   );
 }
