@@ -10,11 +10,16 @@ import css from "./assets/css.png";
 import js from "./assets/js.png";
 import react from "./assets/react.png";
 import node from "./assets/node.png";
+<<<<<<< HEAD
 import python from "./assets/python.png";
 import selton from "./assets/selton.jpg";
 import seltonCv from "./assets/seltonbatistacv.pdf";
 import ProjectList from "./components/ProjectList";
 
+=======
+import python from "./assets/python.png"; 
+import AccordionProjects from "./components/AccordionProjects";
+>>>>>>> 99d5802ead4c4db7ef54b8416c6991f5b09f5394
 
 function App() {
   return (
@@ -42,15 +47,23 @@ function App() {
             <Img src={node} alt="NODE" />
             <Img src={python} alt="PYTHON" />
           </div>
+<<<<<<< HEAD
           <a href={seltonCv} download target="_blank" rel="noreferrer noopener">
+=======
+          <a href="/public/seltonbatistacv.pdf" download target="_blank" rel="noreferrer noopener">
+>>>>>>> 99d5802ead4c4db7ef54b8416c6991f5b09f5394
             <Button>Baixar CV</Button>
           </a>
         </div>
       </section>
 
       <section className="w-full h-screen flex flex-col justify-center items-center">
+<<<<<<< HEAD
         <h2 className="text-[4em]"><Title>Projetos</Title></h2>
         <ProjectList />
+=======
+        <AccordionProjects projectName="Nasa API" Description="NONE" Img="/public/vite.svg"/>
+>>>>>>> 99d5802ead4c4db7ef54b8416c6991f5b09f5394
       </section>
       {/*<div className="text-[3em] flex flex-row justify-center items-center h-screen gap-10">
           <Card />
