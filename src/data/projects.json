@@ -19,5 +19,19 @@
     "description": "...",
     "image": "/img/j4capa.png",
     "url": "https://projeto-j4.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Discografia do Jão",
+    "description": "...",
+    "image": "...",
+    "url": "https://discografia-do-jao.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "Alura book",
+    "description": "Curso de responsividade Alura",
+    "image": "/img/alurabook.jpeg",
+    "url": "https://alurabook-nine-henna.vercel.app/"
   }
 ]
