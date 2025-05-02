@@ -11,13 +11,13 @@
     "title": "Gerenciador de tarefas",
     "description": "A simple web app that allows you to create and manage your tasks.",
     "image": "/img/todomanager.png",
-    "url": "gerenciador-de-tarefas-five-lilac.vercel.app"
+    "url": "https://gerenciador-de-tarefas-five-lilac.vercel.app"
   },
   {
     "id": 3,
     "title": "Projeto j4 2.0",
     "description": "...",
     "image": "/img/j4capa.png",
-    "url": "https://todo-app-eta-rose.vercel.app/"
+    "url": "https://projeto-j4.vercel.app/"
   }
 ]

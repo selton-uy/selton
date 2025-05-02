@@ -5,15 +5,14 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
 
-
-export default function ActionAreaCard({Img}) {
+export default function ActionAreaCard({ Img }) {
   return (
     <Card
       sx={{
         maxWidth: 450,
         minWidth: 300,
         backgroundColor: "#222222",
-        borderRadius: 5, 
+        borderRadius: 5,
         borderColor: "#1DCD9F",
         borderWidth: 3,
         borderStyle: "solid",
@@ -24,8 +23,7 @@ export default function ActionAreaCard({Img}) {
           component="img"
           image={Img}
           alt=" fotinha do selton"
-
-          sx={{  }}
+          sx={{zIndex: 0}}
         />
         <CardContent>
           <Typography
@@ -36,15 +34,13 @@ export default function ActionAreaCard({Img}) {
           >
             Selton Batista
           </Typography>
-          <Typography variant="body2" sx={{ color: "#F2F2F2", fontSize: 18 ,}}>
-
-          Olá! Me chamo Selton Batista, sou estudante de Engenharia de Software e desenvolvedor web apaixonado por transformar ideias em soluções digitais. Trabalho com tecnologias como React, JavaScript, Tailwind CSS e Node.js, criando interfaces modernas, funcionais e responsivas. Estou sempre buscando aprender mais e entregar projetos que unam performance, design e usabilidade.
-
-            Olá, meu nome é Selton Batista, sou um desenvolvedor de software
-            júnior com experiência em React e Node.js. Estou sempre buscando
-            aprender e crescer na área de tecnologia.
-
-            
+          <Typography variant="body2" sx={{ color: "#F2F2F2", fontSize: 18 }}>
+            Olá! Me chamo Selton Batista, sou estudante de Engenharia de
+            Software e desenvolvedor web apaixonado por transformar ideias em
+            soluções digitais. Trabalho com tecnologias como React, JavaScript,
+            Tailwind CSS e Node.js, criando interfaces modernas, funcionais e
+            responsivas. Estou sempre buscando aprender mais e entregar projetos
+            que unam performance, design e usabilidade.
           </Typography>
         </CardContent>
       </CardActionArea>
