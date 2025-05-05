@@ -1,12 +1,29 @@
-# React + Vite
+# Meu portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido com o objetivo de apresentar meus trabalhos, habilidades e experiências na área de desenvolvimento web.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** com **Vite** para construção da interface.
+- **Tailwind CSS** para estilização responsiva e moderna.
+- **Material UI (MUI)** para componentes reutilizáveis e acessíveis.
+- **JSON local** para gerenciamento dos dados dos projetos.
+- **Vercel** para deploy contínuo e hospedagem.
 
-## Expanding the ESLint configuration
+## 📁 Organização do Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/components`: Componentes reutilizáveis, como o `AccordionProjects`.
+- `src/data/projects.json`: Arquivo contendo os dados dos projetos exibidos.
+- `src/pages`: Páginas principais do site.
+- `public`: Arquivos estáticos e imagens.
+
+## 🛠️ Como Executar o Projeto Localmente
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/selton-uy/selton.git
+   cd selton
+O projeto está hospedado na Vercel e pode ser acessado através do seguinte link:
+
+👉 https://selton.vercel.app
