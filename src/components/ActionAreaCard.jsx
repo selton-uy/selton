@@ -5,7 +5,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
 
-export default function ActionAreaCard({ Img }) {
+export default function ActionAreaCard({ img ,children,txt}) {
   return (
     <Card
       sx={{
@@ -16,12 +16,13 @@ export default function ActionAreaCard({ Img }) {
         borderColor: "#1DCD9F",
         borderWidth: 3,
         borderStyle: "solid",
+        minHeight:"90%"
       }}
     >
       <CardActionArea>
         <CardMedia
           component="img"
-          image={Img}
+          image={img}
           alt=" fotinha do selton"
           sx={{zIndex: 0}}
         />
@@ -30,17 +31,12 @@ export default function ActionAreaCard({ Img }) {
             gutterBottom
             variant="h5"
             component="div"
-            sx={{ color: "#F2F2F2" }}
+            sx={{ color: "#F2F2F2", }}
           >
-            Selton Batista
+            {txt}
           </Typography>
           <Typography variant="body2" sx={{ color: "#F2F2F2", fontSize: 18 }}>
-            Olá! Me chamo Selton Batista, sou estudante de Engenharia de
-            Software e desenvolvedor web apaixonado por transformar ideias em
-            soluções digitais. Trabalho com tecnologias como React, JavaScript,
-            Tailwind CSS e Node.js, criando interfaces modernas, funcionais e
-            responsivas. Estou sempre buscando aprender mais e entregar projetos
-            que unam performance, design e usabilidade.
+            {children}
           </Typography>
         </CardContent>
       </CardActionArea>

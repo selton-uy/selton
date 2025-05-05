@@ -3,6 +3,7 @@ import ActionAreaCard from "./components/ActionAreaCard";
 import Button from "./components/Button";
 import Subtitles from "./components/Subtitle";
 import Title from "./components/Title";
+import Card from "./components/Card";
 import "./index.css";
 import html from "./assets/html.png";
 import css from "./assets/css.png";
@@ -11,6 +12,7 @@ import react from "./assets/react.png";
 import node from "./assets/node.png";
 import python from "./assets/python.png";
 import selton from "./assets/selton.jpg";
+import selton2 from "./assets/selton-2.jpg";
 import seltonCv from "./assets/seltonbatistacv.pdf";
 import { Mail, Terminal, User } from "lucide-react";
 import TitlebarImageList from "./components/Titlebar";
@@ -18,7 +20,7 @@ import "./index.css";
 
 function App() {
   return (
-    <div className=" bg-gradient-to-l from-[#012431] to-trasparent min-w-full">
+    <div className=" bg-gradient-to-l from-[#012431] to-trasparent min-w-full min-h-full">
       <nav
         className="fixed
       z-10
@@ -68,24 +70,38 @@ function App() {
           </div>
         </section>
       </div>
-      <Title>Sobre mim</Title>
       <section
         id="sobre"
-        className="min-h-screen py-20 flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16 px-4"
+        className="min-h-screen py-20 flex flex-col justify-center items-center gap-8 md:gap-16 px-4"
       >
-        <ActionAreaCard Img={selton} />
-        <div className="flex flex-col justify-center items-center gap-[5em] py-4">
-          <div className="grid grid-cols-3 gap-4 w-full max-w-[300px] ">
-            <Img src={html} alt="HTML" />
-            <Img src={css} alt="CSS" />
-            <Img src={js} alt="JAVASCRIPT" />
-            <Img src={react} alt="REACT" />
-            <Img src={node} alt="NODE" />
-            <Img src={python} alt="PYTHON" />
+        <Title>Sobre mim</Title>
+        <div className="flex flex-col justify-center items-center gap-4 md:flex-row md:gap-16">
+          <ActionAreaCard img={selton}>
+            Olá! Me chamo Selton Batista, sou estudante de Engenharia de
+            Software e desenvolvedor web apaixonado por transformar ideias em
+            soluções digitais. Trabalho com tecnologias como React, JavaScript,
+            Tailwind CSS e Node.js, criando interfaces modernas, funcionais e
+            responsivas. Estou sempre buscando aprender mais e entregar projetos
+            que unam performance, design e usabilidade.
+          </ActionAreaCard>
+          <div className="flex flex-col justify-center items-center gap-[5em] py-4">
+            <div className="grid grid-cols-3 gap-4 w-full max-w-[300px] ">
+              <Img src={html} alt="HTML" />
+              <Img src={css} alt="CSS" />
+              <Img src={js} alt="JAVASCRIPT" />
+              <Img src={react} alt="REACT" />
+              <Img src={node} alt="NODE" />
+              <Img src={python} alt="PYTHON" />
+            </div>
+            <a
+              href={seltonCv}
+              download
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Button>Baixar CV</Button>
+            </a>
           </div>
-          <a href={seltonCv} download target="_blank" rel="noreferrer noopener">
-            <Button>Baixar CV</Button>
-          </a>
         </div>
       </section>
 
@@ -99,9 +115,16 @@ function App() {
 
         <TitlebarImageList />
       </section>
-      {/*<div className="text-[3em] flex flex-row justify-center items-center h-screen gap-10">
-          <Card />
-        </div>*/}
+      <section id="contact" className="w-screen flex flex-col justify-center items-center gap-5">
+        <Title>Contato</Title>
+        <div className="flex justify-center ">
+          <Card txt={"Vamos Criar Algo Incrível Juntos?"} img={selton2}>
+          Estou sempre aberto a novas oportunidades, colaborações ou simplesmente bater um papo sobre tecnologia e projetos criativos.
+          Me mande uma mensagem! Será um prazer conectar e explorar como posso contribuir com seu projeto.
+          </Card>
+        </div>
+        
+      </section>
     </div>
   );
 }
