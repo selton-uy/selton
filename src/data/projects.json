@@ -33,5 +33,12 @@
     "description": "Curso de responsividade Alura",
     "image": "/img/alurabook.png",
     "url": "https://alurabook-nine-henna.vercel.app/"
+  },
+  {
+    "id": 6,
+    "title": "Clima Tempo",
+    "description": "A simple web app that uses the Clima Tempo API to display the weather forecast.",
+    "image": "/img/clima.png",
+    "url": "https://clima-two-vert.vercel.app/"
   }
 ]
